@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #1B1D20; 
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.profile-card{
+    background: #0e1013;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 400px;
+    height: 692px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-pic{
+    border-radius: 10px;
+    height: 200px;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro h3{
+    background-color: #1b1d20;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 5px;
+}
+.intro .social{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.icon{
+    width: 20px;
+}
+.social .i{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1d20;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px; 
+    transition: 0.5s;
+}
+.social .instagram:hover{
+    transform: scale(1.2);
+    border: 1px solid #ff00e1;
+}
+.social .github:hover{
+    transform: scale(1.2);
+    border: 1px solid #7b00ff;
+}
+.social .linkedin:hover{
+    transform: scale(1.2);
+    border: 1px solid #006eff;
+}
+.contact-list{
+    background-color: #1b1d20;
+    padding: 15px;
+    border-radius: 10px;
+    width: 75%;
+}
+.contact-list .division{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ffffff33;
+    padding: 10px;
+}
+.contact-list .division .content {
+    width: 72%;
+    word-wrap: break-word;
+}
+.Icon{
+    display: flex;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #1b1d20;
+    text-align: center;
+}
+.dowload{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #c0392b;
+}
+.dowload:active{
+    transform: scale(0.9);
+    color: #c0392b;
+    background-color: #ffffff;
+}
+
+.about {
+    background-color: #0e1013;
+    padding: 2rem 3rem;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.about h1 {
+    color: white;
+    margin-bottom: 16px;
+    position: relative;
+    font-size: 3.5rem;
+    display: inline-block;
+    width: 100%;
+}
+
