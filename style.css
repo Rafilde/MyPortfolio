@@ -134,3 +134,7 @@ body {
     width: 100%;
 }
 
+.about p {
+    color: #787878;
+    margin-bottom: 16px;
+}
