@@ -122,8 +122,28 @@ body {
 .about {
     background-color: #0e1013;
     padding: 2rem 3rem;
-    max-width: 800px;
+    max-width: 900px;
     border-radius: 10px;
+    max-height: 600px;
+    overflow: hidden scroll;
+    margin: 0px 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #787878 transparent;
+}
+.about::-webkit-scrollbar {
+    width: 8px;
+}
+.about::-webkit-scrollbar-thumb {
+    background-color: #787878;
+    border-radius: 8px; 
+}
+.about::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.about h2{
+    color: white; 
+    font-size: 2rem;
+    margin: 0.8rem 0;
 }
 .about h1 {
     color: white;
@@ -133,8 +153,31 @@ body {
     display: inline-block;
     width: 100%;
 }
-
 .about p {
     color: #787878;
-    margin-bottom: 16px;
+    margin-bottom: 16px 0;
+}
+.about .work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.work .workbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #333;
+    padding: 1rem;
+    margin: 1rem;
+}
+.work .workbox .desc{
+    width: 75%;
+}
+.work .workbox .desc h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.work .workbox .desc p{
+    margin: 0;
 }
