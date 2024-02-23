@@ -202,7 +202,35 @@ section{
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: #0e1013;
+    margin: 16px 0px 0px 0px;
+    color: white;
+}
+section form{
+    width: 60%;
+}
+input[type=text], input[type=email],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  section form input[type=submit]{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #ffffff;
     background-color: #c0392b;
+}
+section form input[type=submit]:active{
+    transform: scale(0.9);
+    color: #c0392b;
+    background-color: #ffffff;
 }
 section .copyright p {
     margin-top: 50px;

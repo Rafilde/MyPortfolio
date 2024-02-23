@@ -135,25 +135,26 @@ https://www.rhuanbello.com/-->
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="iconSkill"/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" class="iconSkill"/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" class="iconSkill"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" class="iconSkill"/>
         </div>
     </div>
 
 </div>
 
-<section class="contact">
+<section>
     <h2>Contact Me!</h2>
     <form action="#">
         <div class="input-box">
             <label for="name">Full Name</label>
-            <input type="text" placeholder="Full Name" class="item" id="name" autocomplete="off">
+            <input type="text" placeholder="Full Name" class="item" id="name" autocomplete="off" required>
         </div>
         <div class="input-box">
             <label for="email">Email Address</label>
-            <input type="email" placeholder="Email Address" class="item" id="email" autocomplete="off">
+            <input type="email" placeholder="Email Address" class="item" id="email" autocomplete="off" required>
         </div>
         <div class="textarea-field">
             <label for="menssage">Mensasage</label>
-            <textarea class="item" id="menssage" cols="30" rows="10" placeholder="Your Menssage" autocomplete="off"></textarea>
+            <textarea class="item" id="menssage" cols="30" rows="10" placeholder="Your Menssage" autocomplete="off" required></textarea>
         </div>
         <input type="submit" value="Send menssage">
     </form>
@@ -163,3 +164,6 @@ https://www.rhuanbello.com/-->
 </section>
 </body>
 </html>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="index.js"></script>
