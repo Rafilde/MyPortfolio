@@ -9,7 +9,7 @@ function sendEmail() {
   Menssage: ${menssage.value}`
 
     Email.send({
-      SecureToken : "2885ea7f-50d0-4d8d-b413-5c57caf33985",
+      SecureToken : "20491243-c002-4876-ad53-727845a6202b",
       To : 'rafaneto090@gmail.com',
         From : "rafaneto090@gmail.com",
         Subject : "Interested customer",
