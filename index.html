@@ -138,20 +138,22 @@
 
 <section>
     <h2>Contact Me!</h2>
-    <form action="#">
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="dee05311-08ea-41ca-a43d-3b171cc77234">
         <div class="input-box">
             <label for="name">Full Name</label>
-            <input type="text" placeholder="Full Name" class="item" id="name" autocomplete="off" required>
+            <input type="text" placeholder="Full Name" name="name" class="item" id="name" autocomplete="off" required>
         </div>
         <div class="input-box">
             <label for="email">Email Address</label>
-            <input type="email" placeholder="Email Address" class="item" id="email" autocomplete="off" required>
+            <input type="email" placeholder="Email Address" name="email" class="item" id="email" autocomplete="off" required>
         </div>
         <div class="textarea-field">
             <label for="menssage">Mensasage</label>
-            <textarea class="item" id="menssage" cols="30" rows="10" placeholder="Your Menssage" autocomplete="off" required></textarea>
+            <textarea name="message" class="item" id="menssage" cols="30" rows="10" placeholder="Your Menssage" autocomplete="off" required></textarea>
         </div>
         <input type="submit" value="Send menssage">
+        <input type="hidden" name="redirectTo" value="https://rafilde.github.io/MyPortfolio/">
     </form>
     <div class="copyright">
         <p>DEVELOPED BY RAFAEL</p>
@@ -159,6 +161,3 @@
 </section>
 </body>
 </html>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script src="index.js"></script>
